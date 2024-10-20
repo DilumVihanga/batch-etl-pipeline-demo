@@ -2,8 +2,8 @@ name: Ballerina Daily Job
 
 on:
   schedule:
-    # Executes the workflow every day at 06:00 UTC
-    - cron: "0 6 * * *"
+    # Executes the workflow every day at 21:46 UTC (3:16 AM SLT)
+    - cron: "46 21 * * *"
   workflow_dispatch: # Allows manual execution of the workflow
 
 jobs:
