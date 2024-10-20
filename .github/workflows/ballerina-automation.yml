@@ -1,4 +1,4 @@
-name: Ballerina Daily Job
+name: Ballerina Automation Workflow
 
 on:
   schedule:
